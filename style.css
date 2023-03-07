@@ -1,0 +1,203 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-color: #EBECF0;
+}
+/* Menu */
+nav{
+    margin-left: calc(0px - 10px);
+    width: 100%;
+    max-width: 5000px;
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    background: #C5C6D0;
+    text-align: center;  
+}
+.menu{
+    list-style: none;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: relative;
+}
+.menu li{
+    border-radius: 20px;
+    border-bottom: 1px solid aquamarine;
+    display: inline;
+    max-width: 100%;
+    position: flex;
+}
+.menu li a{
+
+    border-radius: 20px;
+    background-color: lavender;
+    color: black;
+    padding: 10px;
+    display: inline;
+    text-decoration: none;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    background-color: grey;
+    color:white;
+}
+/* Conteudo Inicio */
+
+h1.inicio{
+    top: 100px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.foto_perfil{
+    position: relative;
+    left: 65%;
+    top: calc(0px - 120px);
+    width: 350px;
+    border-radius: 200px;
+}
+.main_text_inicio{
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 50%;
+    max-width: 800px;
+    color: white;
+    background-color: rgb(65, 62, 62);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+}
+/* Conteudo Sobre mim */
+
+h1.sobre{
+    top: 100px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.main_text_sobre{
+    position: relative;
+    top: 130px;
+    left: 10%;
+    width: 50%;
+    max-width: 800px;
+    color: white;
+    background-color: rgb(65, 62, 62);
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.main_text_sobre_lista{
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    top: 130px;
+    left: 10%;
+    width: 50%;
+    max-width: 400px;
+    position: relative;
+    color: white;
+    background-color: rgb(65, 62, 62);
+}
+.foto{
+    position: relative;
+    left: 65%;
+    top: calc(0px - 260px);
+    width: 100%;
+    max-width: 350px;
+    border-radius: 600px;
+}
+/* Conteudo O que eu faço? */
+
+h1.proj{
+    top: 100px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.youtube{
+    position: relative;
+    left: 65%;
+    top: calc(0px - 150px);
+    width: 100%;
+    max-width: 300px;
+}
+.main_text_proj{
+    position: relative;
+    top: 130px;
+    left: 10%;
+    width: 50%;
+    max-width: 800px;
+    color: white;
+    background-color: rgb(65, 62, 62);
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+.lista_proj{
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 50px;
+    font-size: 20px;
+    top: 130px;
+    left: 10%;
+    width: 50%;
+    max-width: 400px;
+    position: relative;
+    color: white;
+    background-color: rgb(65, 62, 62);
+}
+/* Conteudo Contatos */
+
+h1.contato{
+    top: 100px;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+.insta{
+    position: relative;
+    top: 200px;
+    padding-bottom: 200px;
+    left: calc(19% - 200px);
+    width: 100%;
+    max-width: 200px;
+
+}
+.telegram{
+    position: relative;
+    top: 200px;
+    padding-bottom: 200px;
+    left: calc(30% - 200px);
+    width: 100%;
+    max-width: 200px;
+}
+.email{
+    position: relative;
+    top: 200px;
+    padding-bottom: 200px;
+    left: calc(40% - 200px);
+    width: 100%;
+    max-width: 200px;
+}
+.linkedin{
+    position: relative;
+    top: 200px;
+    padding-bottom: 200px;
+    left: calc(50% - 200px);
+    width: 100%;
+    max-width: 200px;
+}
